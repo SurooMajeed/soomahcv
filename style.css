@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 100%;
+    max-width: 900px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    
+}
+.left {
+    position: initial;
+    background-color: rgb(112, 173, 184);
+    padding: 40px;
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(228, 234, 240);
+    padding: 40px;
+ 
+}
+.image, .About, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+}
+.image{
+   font-weight: 200px;
+    color: white;
+  font-size: xx-large;
+  width: 200px;
+  height: 180px;
+    border-radius: 50%;
+    
+}
+.h2 {
+    background-color: rgb(112, 162, 190);
+    text-decoration: underline;
+    
+}
+.h1{
+    background-color: rgb(120, 158, 158);
+    font-size: larger;
+    color: white;
+    font-style: italic;
+    height: 80px;
+    width: 100%;
+  /* margin: 40px;
+  background-size: 100%; */
+
+    
+}
+.h3{
+    background-color: rgb(141, 168, 184);
+    text-decoration: underline;
+}
+.p2{
+    color: rgb(70, 108, 96);
+    font-size: small;
+}
